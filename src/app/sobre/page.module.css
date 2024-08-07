@@ -1,0 +1,8 @@
+.containerTitle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8rem;
+    padding: 1rem;
+    border: 0.2rem solid green;
+}
