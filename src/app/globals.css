@@ -29,7 +29,17 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: center;
 	line-height: 1;
+}
+.layout{
+	width: 100%;
+	max-width: 112.8rem;
 }
 ol, ul {
 	list-style: none;
@@ -135,10 +145,9 @@ table {
 	/* border: 0.5rem solid orange; */
 	width: 98%;
 	max-width: 112.8rem;
-	padding-top: 1rem;
-	padding-bottom: 2rem;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
   }
   
   a{
