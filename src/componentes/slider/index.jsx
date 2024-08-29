@@ -17,7 +17,7 @@ export default function Slider() {
             showStatus={false}
             autoPlay={true}
             infiniteLoop={true}
-            interval={5000}
+            interval={3000}
         >
             <div>
                 <Image src={promo1} alt="promoção 1" />
